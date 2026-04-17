@@ -124,6 +124,16 @@ def _all_estates(df) -> list[str]:
     return values
 
 
+def _estates_for_plantations(df, plantations: list[str]) -> list[str]:
+    if df is None or df.empty or "estate" not in df.columns or "plantation" not in df.columns:
+        return []
+    allowed = {str(item).strip().upper() for item in plantations if str(item).strip()}
+    if not allowed:
+        return []
+    matches = df[df["plantation"].astype(str).str.upper().isin(allowed)]
+    return sorted({str(item).strip() for item in matches["estate"].tolist() if str(item).strip()}, key=lambda x: x.lower())
+
+
 def resolve_access_context(request: Request, df=None) -> AccessContext:
     username, source = _extract_username(request)
     if not username:
@@ -180,11 +190,19 @@ def resolve_access_context(request: Request, df=None) -> AccessContext:
         if single:
             accessible_plantations = [single]
 
-    # User requirement for plantation project:
-    # CEO and MD can see all plantations here.
-    if role in {"ceo", "md", "admin"}:
+    # Plantation dashboard visibility rules:
+    # - ADMIN and MD can see every plantation / estate
+    # - Plantation CEOs see all estates inside only their mapped plantation
+    # - Estate users are locked to their mapped estate, and the UI can still offer
+    #   an "All Plantations" view that remains limited to their allowed scope.
+    if role in {"md", "admin"}:
         accessible_plantations = list(all_plantations)
         accessible_estates = list(all_estates)
+    elif role == "ceo":
+        if not accessible_plantations and all_plantations:
+            accessible_plantations = list(all_plantations)
+        if df is not None and not df.empty:
+            accessible_estates = _estates_for_plantations(df, accessible_plantations)
 
     accessible_plantations = list(dict.fromkeys(accessible_plantations))
     accessible_estates = list(dict.fromkeys(accessible_estates))
@@ -196,7 +214,7 @@ def resolve_access_context(request: Request, df=None) -> AccessContext:
             key=lambda x: x.lower(),
         )
 
-    resolved_estate = accessible_estates[0] if len(accessible_estates) == 1 else None
+    resolved_estate = accessible_estates[0] if role not in {"md", "admin", "ceo"} and len(accessible_estates) == 1 else None
     access_mode = "locked" if resolved_estate else "scoped"
 
     if not accessible_plantations and settings.access_strict_mode:

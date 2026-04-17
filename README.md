@@ -64,7 +64,7 @@ This build was updated to work behind a **separate first login page**.
 
 ### Plantation visibility rules in this build
 - Estate users: only their mapped plantation / estate
-- CEO: all plantations in this plantation dashboard
+- CEO (TTEL / KVPL / HPL): all estates inside only their mapped plantation
 - MD: all plantations
 - Admin: all plantations
 

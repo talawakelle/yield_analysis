@@ -1,7 +1,16 @@
 import { getExternalScopeIdentity } from "./auth-scope";
 
-export const API_BASE =
-  process.env.NEXT_PUBLIC_API_BASE?.replace(/\/$/, "") || "http://127.0.0.1:8000";
+function resolveApiBase() {
+  const explicit = process.env.NEXT_PUBLIC_API_BASE?.replace(/\/$/, "");
+  if (explicit) return explicit;
+  if (typeof window !== "undefined") {
+    const { protocol, hostname } = window.location;
+    return `${protocol}//${hostname}:8001`;
+  }
+  return "http://127.0.0.1:8001";
+}
+
+export const API_BASE = resolveApiBase();
 
 type RequestOptions = RequestInit & {
   token?: string | null;

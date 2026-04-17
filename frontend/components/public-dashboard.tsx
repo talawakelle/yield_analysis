@@ -35,14 +35,14 @@ const defaultFilters: QueryFilters = {
 };
 
 const plantationChoices = [
-  { label: "Hayleys Plantations", value: "HAYLEYS", image: "/plantations/hayleys.png" },
+  { label: "All Accessible Plantations", value: "HAYLEYS", image: "/plantations/hayleys.png" },
   { label: "Talawakelle Tea Estates", value: "TTEL", image: "/plantations/ttel.png" },
   { label: "Kelani Valley Plantations", value: "KVPL", image: "/plantations/kvpl.png" },
   { label: "Horana Plantations", value: "HPL", image: "/plantations/hpl.png" },
 ] as const;
 
 const plantationDisplayNames: Record<string, string> = {
-  HAYLEYS: "Hayleys Plantations",
+  HAYLEYS: "All Accessible Plantations",
   TTEL: "Talawakelle Tea Estates",
   KVPL: "Kelani Valley Plantations",
   HPL: "Horana Plantations",
@@ -127,11 +127,15 @@ function plantationChoiceFromValue(value: string) {
 }
 
 function allowedPlantationChoices(access: AccessScope | null) {
-  const accessible = access?.accessible_plantations || [];
-  const allowGlobal = access?.role === "ceo" || access?.role === "md" || access?.role === "admin";
+  const accessible = Array.from(new Set(access?.accessible_plantations || []));
+  const role = access?.role || "";
+  const allowGlobal = role === "md" || role === "admin";
 
   return plantationChoices.filter((choice) => {
-    if (choice.value === "HAYLEYS") return allowGlobal;
+    if (choice.value === "HAYLEYS") {
+      return allowGlobal || accessible.length > 0;
+    }
+    if (allowGlobal) return true;
     return accessible.includes(choice.value);
   });
 }
