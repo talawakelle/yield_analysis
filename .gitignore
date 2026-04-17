@@ -12,3 +12,6 @@ backend/data_store/
 *.db-shm
 *.db-wal
 *.tsbuildinfo
+.next/
+dist/
+frontend/dist/
