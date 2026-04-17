@@ -1,0 +1,893 @@
+{
+  "admins": [
+    {
+      "username": "ADMIN",
+      "display_name": "System Admin",
+      "role": "admin",
+      "can_upload": true,
+      "aliases": [
+        "admin",
+        "ADMIN"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "username": "HPL@BK",
+      "display_name": "Bambarakelly User",
+      "estate": "Bambarakelly",
+      "plantation": "HPL",
+      "aliases": [
+        "Bambarakelly",
+        "bambarakelly",
+        "HPL@BK",
+        "hpl@bk",
+        "hplbk"
+      ]
+    },
+    {
+      "username": "HPL@EH",
+      "display_name": "Eildonhall User",
+      "estate": "Eildonhall",
+      "plantation": "HPL",
+      "aliases": [
+        "Eildonhall",
+        "eildonhall",
+        "HPL@EH",
+        "hpl@eh",
+        "hpleh"
+      ]
+    },
+    {
+      "username": "HPL@TC",
+      "display_name": "Tillicoultry User",
+      "estate": "Tillicoultry",
+      "plantation": "HPL",
+      "aliases": [
+        "Tillicoultry",
+        "tillicoultry",
+        "HPL@TC",
+        "hpl@tc",
+        "hpltc"
+      ]
+    },
+    {
+      "username": "HPL@HS",
+      "display_name": "Hillstream User",
+      "estate": "Hillstream",
+      "plantation": "HPL",
+      "aliases": [
+        "Hillstream",
+        "hillstream",
+        "HPL@HS",
+        "hpl@hs",
+        "hplhs"
+      ]
+    },
+    {
+      "username": "HPL@FC",
+      "display_name": "Frocester User",
+      "estate": "Frocester",
+      "plantation": "HPL",
+      "aliases": [
+        "Frocester",
+        "frocester",
+        "HPL@FC",
+        "hpl@fc",
+        "hplfc"
+      ]
+    },
+    {
+      "username": "HPL@HW",
+      "display_name": "Halwatura User",
+      "estate": "Halwatura",
+      "plantation": "HPL",
+      "aliases": [
+        "Halwatura",
+        "halwatura",
+        "HPL@HW",
+        "hpl@hw",
+        "hplhw"
+      ]
+    },
+    {
+      "username": "HPL@MH",
+      "display_name": "Mirishena User",
+      "estate": "Mirishena",
+      "plantation": "HPL",
+      "aliases": [
+        "Mirishena",
+        "mirishena",
+        "HPL@MH",
+        "hpl@mh",
+        "hplmh"
+      ]
+    },
+    {
+      "username": "HPL@NC",
+      "display_name": "Neuchatel User",
+      "estate": "Neuchatel",
+      "plantation": "HPL",
+      "aliases": [
+        "Neuchatel",
+        "neuchatel",
+        "HPL@NC",
+        "hpl@nc",
+        "hplnc"
+      ]
+    },
+    {
+      "username": "HPL@M",
+      "display_name": "Millakanda User",
+      "estate": "Millakanda",
+      "plantation": "HPL",
+      "aliases": [
+        "Millakanda",
+        "millakanda",
+        "HPL@M",
+        "hpl@m",
+        "hplm"
+      ]
+    },
+    {
+      "username": "HPL@AT",
+      "display_name": "Alton User",
+      "estate": "Alton",
+      "plantation": "HPL",
+      "aliases": [
+        "Alton",
+        "alton",
+        "HPL@AT",
+        "hpl@at",
+        "hplat"
+      ]
+    },
+    {
+      "username": "HPL@FL",
+      "display_name": "Fairlawn User",
+      "estate": "Fairlawn",
+      "plantation": "HPL",
+      "aliases": [
+        "Fairlawn",
+        "fairlawn",
+        "HPL@FL",
+        "hpl@fl",
+        "hplfl"
+      ]
+    },
+    {
+      "username": "HPL@GV",
+      "display_name": "Gouravilla User",
+      "estate": "Gouravilla",
+      "plantation": "HPL",
+      "aliases": [
+        "Gouravilla",
+        "gouravilla",
+        "HPL@GV",
+        "hpl@gv",
+        "hplgv"
+      ]
+    },
+    {
+      "username": "HPL@MN",
+      "display_name": "Mahanilu User",
+      "estate": "Mahanilu",
+      "plantation": "HPL",
+      "aliases": [
+        "Mahanilu",
+        "mahanilu",
+        "HPL@MN",
+        "hpl@mn",
+        "hplmn"
+      ]
+    },
+    {
+      "username": "HPL@SH",
+      "display_name": "Stockholm User",
+      "estate": "Stockholm",
+      "plantation": "HPL",
+      "aliases": [
+        "Stockholm",
+        "stockholm",
+        "HPL@SH",
+        "hpl@sh",
+        "hplsh"
+      ]
+    },
+    {
+      "username": "KVPL@AF",
+      "display_name": "Annfield User",
+      "estate": "Annfield",
+      "plantation": "KVPL",
+      "aliases": [
+        "Annfield",
+        "annfield",
+        "KVPL@AF",
+        "kvpl@af",
+        "kvplaf"
+      ]
+    },
+    {
+      "username": "KVPL@BG",
+      "display_name": "Battalgalla User",
+      "estate": "Battalgalla",
+      "plantation": "KVPL",
+      "aliases": [
+        "Battalgalla",
+        "battalgalla",
+        "KVPL@BG",
+        "kvpl@bg",
+        "kvplbg"
+      ]
+    },
+    {
+      "username": "KVPL@FD",
+      "display_name": "Fordyce User",
+      "estate": "Fordyce",
+      "plantation": "KVPL",
+      "aliases": [
+        "Fordyce",
+        "fordyce",
+        "KVPL@FD",
+        "kvpl@fd",
+        "kvplfd"
+      ]
+    },
+    {
+      "username": "KVPL@IG",
+      "display_name": "Ingestre User",
+      "estate": "Ingestre",
+      "plantation": "KVPL",
+      "aliases": [
+        "Ingestre",
+        "ingestre",
+        "KVPL@IG",
+        "kvpl@ig",
+        "kvplig"
+      ]
+    },
+    {
+      "username": "KVPL@IV",
+      "display_name": "Invery User",
+      "estate": "Invery",
+      "plantation": "KVPL",
+      "aliases": [
+        "Invery",
+        "invery",
+        "KVPL@IV",
+        "kvpl@iv",
+        "kvpliv"
+      ]
+    },
+    {
+      "username": "KVPL@RG",
+      "display_name": "Robgill User",
+      "estate": "Robgill",
+      "plantation": "KVPL",
+      "aliases": [
+        "Robgill",
+        "robgill",
+        "KVPL@RG",
+        "kvpl@rg",
+        "kvplrg"
+      ]
+    },
+    {
+      "username": "KVPL@TL",
+      "display_name": "Tillyrie User",
+      "estate": "Tillyrie",
+      "plantation": "KVPL",
+      "aliases": [
+        "Tillyrie",
+        "tillyrie",
+        "KVPL@TL",
+        "kvpl@tl",
+        "kvpltl"
+      ]
+    },
+    {
+      "username": "KVPL@DK",
+      "display_name": "Dewalakanda User",
+      "estate": "Dewalakanda",
+      "plantation": "KVPL",
+      "aliases": [
+        "Dewalakanda",
+        "dewalakanda",
+        "KVPL@DK",
+        "kvpl@dk",
+        "kvpldk"
+      ]
+    },
+    {
+      "username": "KVPL@EP",
+      "display_name": "Ederapola User",
+      "estate": "Ederapola",
+      "plantation": "KVPL",
+      "aliases": [
+        "Ederapola",
+        "ederapola",
+        "KVPL@EP",
+        "kvpl@ep",
+        "kvplep"
+      ]
+    },
+    {
+      "username": "KVPL@GP",
+      "display_name": "Ganepalla User",
+      "estate": "Ganepalla",
+      "plantation": "KVPL",
+      "aliases": [
+        "Ganepalla",
+        "ganepalla",
+        "KVPL@GP",
+        "kvpl@gp",
+        "kvplgp"
+      ]
+    },
+    {
+      "username": "KVPL@KI",
+      "display_name": "Kiriporuwa User",
+      "estate": "Kiriporuwa",
+      "plantation": "KVPL",
+      "aliases": [
+        "Kiriporuwa",
+        "kiriporuwa",
+        "KVPL@KI",
+        "kvpl@ki",
+        "kvplki"
+      ]
+    },
+    {
+      "username": "KVPL@LV",
+      "display_name": "Lavent User",
+      "estate": "Lavent",
+      "plantation": "KVPL",
+      "aliases": [
+        "Lavent",
+        "lavent",
+        "KVPL@LV",
+        "kvpl@lv",
+        "kvpllv"
+      ]
+    },
+    {
+      "username": "KVPL@PW",
+      "display_name": "Panawatta User",
+      "estate": "Panawatta",
+      "plantation": "KVPL",
+      "aliases": [
+        "Panawatta",
+        "panawatta",
+        "KVPL@PW",
+        "kvpl@pw",
+        "kvplpw"
+      ]
+    },
+    {
+      "username": "KVPL@UW",
+      "display_name": "Urumiwella User",
+      "estate": "Urumiwella",
+      "plantation": "KVPL",
+      "aliases": [
+        "Urumiwella",
+        "urumiwella",
+        "KVPL@UW",
+        "kvpl@uw",
+        "kvpluw"
+      ]
+    },
+    {
+      "username": "KVPL@WO",
+      "display_name": "We Oya User",
+      "estate": "We Oya",
+      "plantation": "KVPL",
+      "aliases": [
+        "We Oya",
+        "we oya",
+        "KVPL@WO",
+        "kvpl@wo",
+        "kvplwo"
+      ]
+    },
+    {
+      "username": "KVPL@HG",
+      "display_name": "Halgolla User",
+      "estate": "Halgolla",
+      "plantation": "KVPL",
+      "aliases": [
+        "Halgolla",
+        "halgolla",
+        "KVPL@HG",
+        "kvpl@hg",
+        "kvplhg"
+      ]
+    },
+    {
+      "username": "KVPL@KT",
+      "display_name": "Kitulgala User",
+      "estate": "Kitulgala",
+      "plantation": "KVPL",
+      "aliases": [
+        "Kitulgala",
+        "kitulgala",
+        "KVPL@KT",
+        "kvpl@kt",
+        "kvplkt"
+      ]
+    },
+    {
+      "username": "KVPL@KP",
+      "display_name": "Kalupahana User",
+      "estate": "Kalupahana",
+      "plantation": "KVPL",
+      "aliases": [
+        "Kalupahana",
+        "kalupahana",
+        "KVPL@KP",
+        "kvpl@kp",
+        "kvplkp"
+      ]
+    },
+    {
+      "username": "KVPL@KL",
+      "display_name": "Kelani User",
+      "estate": "Kelani",
+      "plantation": "KVPL",
+      "aliases": [
+        "Kelani",
+        "kelani",
+        "KVPL@KL",
+        "kvpl@kl",
+        "kvplkl"
+      ]
+    },
+    {
+      "username": "KVPL@EB",
+      "display_name": "Edinburgh User",
+      "estate": "Edinburgh",
+      "plantation": "KVPL",
+      "aliases": [
+        "Edinburgh",
+        "edinburgh",
+        "KVPL@EB",
+        "kvpl@eb",
+        "kvpleb"
+      ]
+    },
+    {
+      "username": "KVPL@GL",
+      "display_name": "Glassugh User",
+      "estate": "Glassugh",
+      "plantation": "KVPL",
+      "aliases": [
+        "Glassugh",
+        "glassugh",
+        "KVPL@GL",
+        "kvpl@gl",
+        "kvplgl"
+      ]
+    },
+    {
+      "username": "KVPL@NE",
+      "display_name": "Nuwara Eliya User",
+      "estate": "Nuwara Eliya",
+      "plantation": "KVPL",
+      "aliases": [
+        "Nuwara Eliya",
+        "nuwara eliya",
+        "KVPL@NE",
+        "kvpl@ne",
+        "kvplne"
+      ]
+    },
+    {
+      "username": "KVPL@OP",
+      "display_name": "Oliphant User",
+      "estate": "Oliphant",
+      "plantation": "KVPL",
+      "aliases": [
+        "Oliphant",
+        "oliphant",
+        "KVPL@OP",
+        "kvpl@op",
+        "kvplop"
+      ]
+    },
+    {
+      "username": "KVPL@PD",
+      "display_name": "Pedro User",
+      "estate": "Pedro",
+      "plantation": "KVPL",
+      "aliases": [
+        "Pedro",
+        "pedro",
+        "KVPL@PD",
+        "kvpl@pd",
+        "kvplpd"
+      ]
+    },
+    {
+      "username": "KVPL@UR",
+      "display_name": "Uda Radella User",
+      "estate": "Uda Radella",
+      "plantation": "KVPL",
+      "aliases": [
+        "Uda Radella",
+        "uda radella",
+        "KVPL@UR",
+        "kvpl@ur",
+        "kvplur"
+      ]
+    },
+    {
+      "username": "TTEL@DY",
+      "display_name": "Deniyaya User",
+      "estate": "Deniyaya",
+      "plantation": "TTEL",
+      "aliases": [
+        "Deniyaya",
+        "deniyaya",
+        "TTEL@DY",
+        "ttel@dy",
+        "tteldy"
+      ]
+    },
+    {
+      "username": "TTEL@ID",
+      "display_name": "Indola User",
+      "estate": "Indola",
+      "plantation": "TTEL",
+      "aliases": [
+        "Indola",
+        "indola",
+        "TTEL@ID",
+        "ttel@id",
+        "ttelid"
+      ]
+    },
+    {
+      "username": "TTEL@KG",
+      "display_name": "Kiruwanaganga User",
+      "estate": "Kiruwanaganga",
+      "plantation": "TTEL",
+      "aliases": [
+        "Kiruwanaganga",
+        "kiruwanaganga",
+        "TTEL@KG",
+        "ttel@kg",
+        "ttelkg"
+      ]
+    },
+    {
+      "username": "TTEL@MG",
+      "display_name": "Moragalla User",
+      "estate": "Moragalla",
+      "plantation": "TTEL",
+      "aliases": [
+        "Moragalla",
+        "moragalla",
+        "TTEL@MG",
+        "ttel@mg",
+        "ttelmg"
+      ]
+    },
+    {
+      "username": "TTEL@CA",
+      "display_name": "Calsay User",
+      "estate": "Calsay",
+      "plantation": "TTEL",
+      "aliases": [
+        "Calsay",
+        "calsay",
+        "TTEL@CA",
+        "ttel@ca",
+        "ttelca"
+      ]
+    },
+    {
+      "username": "TTEL@CL",
+      "display_name": "Clarendon User",
+      "estate": "Clarendon",
+      "plantation": "TTEL",
+      "aliases": [
+        "Clarendon",
+        "clarendon",
+        "TTEL@CL",
+        "ttel@cl",
+        "ttelcl"
+      ]
+    },
+    {
+      "username": "TTEL@DF",
+      "display_name": "Dessford User",
+      "estate": "Dessford",
+      "plantation": "TTEL",
+      "aliases": [
+        "Dessford",
+        "dessford",
+        "TTEL@DF",
+        "ttel@df",
+        "tteldf"
+      ]
+    },
+    {
+      "username": "TTEL@RD",
+      "display_name": "Radella User",
+      "estate": "Radella",
+      "plantation": "TTEL",
+      "aliases": [
+        "Radella",
+        "radella",
+        "TTEL@RD",
+        "ttel@rd",
+        "ttelrd"
+      ]
+    },
+    {
+      "username": "TTEL@SS",
+      "display_name": "Somerset User",
+      "estate": "Somerset",
+      "plantation": "TTEL",
+      "aliases": [
+        "Somerset",
+        "somerset",
+        "TTEL@SS",
+        "ttel@ss",
+        "ttelss"
+      ]
+    },
+    {
+      "username": "TTEL@BW",
+      "display_name": "Bearwell User",
+      "estate": "Bearwell",
+      "plantation": "TTEL",
+      "aliases": [
+        "Bearwell",
+        "bearwell",
+        "TTEL@BW",
+        "ttel@bw",
+        "ttelbw"
+      ]
+    },
+    {
+      "username": "TTEL@GW",
+      "display_name": "Great Western User",
+      "estate": "Great Western",
+      "plantation": "TTEL",
+      "aliases": [
+        "Great Western",
+        "great western",
+        "TTEL@GW",
+        "ttel@gw",
+        "ttelgw"
+      ]
+    },
+    {
+      "username": "TTEL@HR",
+      "display_name": "Holyrood User",
+      "estate": "Holyrood",
+      "plantation": "TTEL",
+      "aliases": [
+        "Holyrood",
+        "holyrood",
+        "TTEL@HR",
+        "ttel@hr",
+        "ttelhr"
+      ]
+    },
+    {
+      "username": "TTEL@LG",
+      "display_name": "Logie User",
+      "estate": "Logie",
+      "plantation": "TTEL",
+      "aliases": [
+        "Logie",
+        "logie",
+        "TTEL@LG",
+        "ttel@lg",
+        "ttellg"
+      ]
+    },
+    {
+      "username": "TTEL@MK",
+      "display_name": "Mattakelle User",
+      "estate": "Mattakelle",
+      "plantation": "TTEL",
+      "aliases": [
+        "Mattakelle",
+        "mattakelle",
+        "TTEL@MK",
+        "ttel@mk",
+        "ttelmk"
+      ]
+    },
+    {
+      "username": "TTEL@PT",
+      "display_name": "Palmerston User",
+      "estate": "Palmerston",
+      "plantation": "TTEL",
+      "aliases": [
+        "Palmerston",
+        "palmerston",
+        "TTEL@PT",
+        "ttel@pt",
+        "ttelpt"
+      ]
+    },
+    {
+      "username": "TTEL@WG",
+      "display_name": "Wattegoda User",
+      "estate": "Wattegoda",
+      "plantation": "TTEL",
+      "aliases": [
+        "Wattegoda",
+        "wattegoda",
+        "TTEL@WG",
+        "ttel@wg",
+        "ttelwg"
+      ]
+    },
+    {
+      "username": "TTEL",
+      "display_name": "TTEL CEO",
+      "role": "ceo",
+      "plantation": "TTEL",
+      "estates": [
+        "Deniyaya",
+        "Indola",
+        "Kiruwanaganga",
+        "Moragalla",
+        "Calsay",
+        "Clarendon",
+        "Dessford",
+        "Radella",
+        "Somerset",
+        "Bearwell",
+        "Great Western",
+        "Holyrood",
+        "Logie",
+        "Mattakelle",
+        "Palmerston",
+        "Wattegoda"
+      ],
+      "aliases": [
+        "ttel",
+        "TTEL"
+      ]
+    },
+    {
+      "username": "KVPL",
+      "display_name": "KVPL CEO",
+      "role": "ceo",
+      "plantation": "KVPL",
+      "estates": [
+        "Annfield",
+        "Battalgalla",
+        "Fordyce",
+        "Ingestre",
+        "Invery",
+        "Robgill",
+        "Tillyrie",
+        "Dewalakanda",
+        "Ederapola",
+        "Ganepalla",
+        "Kiriporuwa",
+        "Lavent",
+        "Panawatta",
+        "Urumiwella",
+        "We Oya",
+        "Halgolla",
+        "Kitulgala",
+        "Kalupahana",
+        "Kelani",
+        "Edinburgh",
+        "Glassugh",
+        "Nuwara Eliya",
+        "Oliphant",
+        "Pedro",
+        "Uda Radella"
+      ],
+      "aliases": [
+        "kvpl",
+        "KVPL"
+      ]
+    },
+    {
+      "username": "HPL",
+      "display_name": "HPL CEO",
+      "role": "ceo",
+      "plantation": "HPL",
+      "estates": [
+        "Bambarakelly",
+        "Eildonhall",
+        "Tillicoultry",
+        "Hillstream",
+        "Frocester",
+        "Halwatura",
+        "Mirishena",
+        "Neuchatel",
+        "Millakanda",
+        "Alton",
+        "Fairlawn",
+        "Gouravilla",
+        "Mahanilu",
+        "Stockholm"
+      ],
+      "aliases": [
+        "hpl",
+        "HPL"
+      ]
+    },
+    {
+      "username": "MD",
+      "display_name": "Managing Director",
+      "role": "md",
+      "plantations": [
+        "TTEL",
+        "KVPL",
+        "HPL"
+      ],
+      "estates": [
+        "Bambarakelly",
+        "Eildonhall",
+        "Tillicoultry",
+        "Hillstream",
+        "Frocester",
+        "Halwatura",
+        "Mirishena",
+        "Neuchatel",
+        "Millakanda",
+        "Alton",
+        "Fairlawn",
+        "Gouravilla",
+        "Mahanilu",
+        "Stockholm",
+        "Annfield",
+        "Battalgalla",
+        "Fordyce",
+        "Ingestre",
+        "Invery",
+        "Robgill",
+        "Tillyrie",
+        "Dewalakanda",
+        "Ederapola",
+        "Ganepalla",
+        "Kiriporuwa",
+        "Lavent",
+        "Panawatta",
+        "Urumiwella",
+        "We Oya",
+        "Halgolla",
+        "Kitulgala",
+        "Kalupahana",
+        "Kelani",
+        "Edinburgh",
+        "Glassugh",
+        "Nuwara Eliya",
+        "Oliphant",
+        "Pedro",
+        "Uda Radella",
+        "Deniyaya",
+        "Indola",
+        "Kiruwanaganga",
+        "Moragalla",
+        "Calsay",
+        "Clarendon",
+        "Dessford",
+        "Radella",
+        "Somerset",
+        "Bearwell",
+        "Great Western",
+        "Holyrood",
+        "Logie",
+        "Mattakelle",
+        "Palmerston",
+        "Wattegoda"
+      ],
+      "aliases": [
+        "md",
+        "MD"
+      ]
+    }
+  ]
+}
