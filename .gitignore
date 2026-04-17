@@ -1,0 +1,14 @@
+﻿.venv/
+node_modules/
+__pycache__/
+.env
+.env.*
+backend/.env
+frontend/.env
+frontend/.env.local
+backend/data/user_estate_access.json
+backend/data_store/
+*.db
+*.db-shm
+*.db-wal
+*.tsbuildinfo
